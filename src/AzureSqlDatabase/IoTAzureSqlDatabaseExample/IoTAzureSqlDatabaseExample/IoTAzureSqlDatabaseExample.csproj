@@ -1,0 +1,8 @@
+﻿<Project Sdk="Xamarin.IoT.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net461</TargetFramework>
+	</PropertyGroup>
+
+</Project>
