@@ -1,0 +1,8 @@
+*.userprefs
+*.mpack
+*.md5
+packages
+bin
+debug
+obj
+nuget.exe
