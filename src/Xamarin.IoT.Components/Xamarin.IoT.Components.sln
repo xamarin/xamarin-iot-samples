@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.IoT.Components.Core", "Xamarin.IoT.Components.Core\Xamarin.IoT.Components.Core.shproj", "{7A8C9FDD-C874-464B-945E-237C026E2DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.IoT.Components.Examples.Raspbian", "Xamarin.IoT.Components.Examples.Raspbian\Xamarin.IoT.Components.Examples.Raspbian.csproj", "{6D217664-8A79-470A-A6CB-7853B559B299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{1B8D3FA4-4DDF-4126-AEB4-FDF67347B6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.IoT.Components.Raspbian", "Xamarin.IoT.Components.Raspbian\Xamarin.IoT.Components.Raspbian.csproj", "{CB3DBDBD-76D1-4E10-B721-6BD651129D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.IoT.Components.Examples.Monodroid", "Xamarin.IoT.Components.Examples.Monodroid\Xamarin.IoT.Components.Examples.Monodroid.csproj", "{AF0D23C3-9E08-413E-A36D-FE166E61ED63}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.IoT.Components.Examples.Core", "Xamarin.IoT.Components.Examples.Core\Xamarin.IoT.Components.Examples.Core.shproj", "{0418B13E-F0C4-4005-B7AD-BF48BFCC805C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.IoT.Components.Monodroid", "Xamarin.IoT.Components.Monodroid\Xamarin.IoT.Components.Monodroid.csproj", "{37EB47E1-B1E7-4332-8AC7-28452E605749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D217664-8A79-470A-A6CB-7853B559B299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D217664-8A79-470A-A6CB-7853B559B299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D217664-8A79-470A-A6CB-7853B559B299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D217664-8A79-470A-A6CB-7853B559B299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3DBDBD-76D1-4E10-B721-6BD651129D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3DBDBD-76D1-4E10-B721-6BD651129D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3DBDBD-76D1-4E10-B721-6BD651129D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3DBDBD-76D1-4E10-B721-6BD651129D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0D23C3-9E08-413E-A36D-FE166E61ED63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0D23C3-9E08-413E-A36D-FE166E61ED63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0D23C3-9E08-413E-A36D-FE166E61ED63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0D23C3-9E08-413E-A36D-FE166E61ED63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EB47E1-B1E7-4332-8AC7-28452E605749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EB47E1-B1E7-4332-8AC7-28452E605749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EB47E1-B1E7-4332-8AC7-28452E605749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EB47E1-B1E7-4332-8AC7-28452E605749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 0.2
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D217664-8A79-470A-A6CB-7853B559B299} = {1B8D3FA4-4DDF-4126-AEB4-FDF67347B6D8}
+		{AF0D23C3-9E08-413E-A36D-FE166E61ED63} = {1B8D3FA4-4DDF-4126-AEB4-FDF67347B6D8}
+		{0418B13E-F0C4-4005-B7AD-BF48BFCC805C} = {1B8D3FA4-4DDF-4126-AEB4-FDF67347B6D8}
+	EndGlobalSection
+EndGlobal

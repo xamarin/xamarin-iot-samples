@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{7A8C9FDD-C874-464B-945E-237C026E2DCC}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Xamarin.IoT.Components.Core</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Connectors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IoTActiveType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IoTPinDirection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IoTComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IoTComponentContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IoTHubContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IoTBlind.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IIoTBlind.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IIoTButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IIoTComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IIoTComponentContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IIoTPin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IIoTRelay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IIoTSensor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IoTRelay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IoTButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\IoTSensor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Components\" />
+  </ItemGroup>
+</Project>
