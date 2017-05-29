@@ -9,7 +9,7 @@ namespace Xamarin.IoT.Components
 		static readonly ITracer tracer = Tracer.Get<IoTRelay> ();
 
 		const string ValueNotInRange = "Pin id parameter is not in range";
-		public event EventHandler PinChanged;
+		public event EventHandler<RelayChangedEventArgs> PinChanged;
 		readonly IoTPin [] pins;
 
 		public IoTRelay (params Connectors [] gpio)
