@@ -66,5 +66,10 @@ namespace Xamarin.IoT.Components
 				pin.Close ();
 			}
 		}
+
+		public int Count()
+		{
+			return pins.Length;
+		}
 	}
 }

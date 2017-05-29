@@ -10,5 +10,6 @@ namespace Xamarin.IoT.Components
 		void Toggle (int id);
 		bool GetPinValue (int id);
 		void EnablePin (int id, bool value);
+		int Count();
 	}
 }
