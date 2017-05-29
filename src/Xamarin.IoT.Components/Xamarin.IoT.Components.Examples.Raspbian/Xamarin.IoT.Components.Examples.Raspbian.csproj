@@ -10,23 +10,7 @@
 	  <ProjectReference Include="..\Xamarin.IoT.Components.Raspbian\Xamarin.IoT.Components.Raspbian.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Compile Include="..\Xamarin.IoT.Components.Examples.Core\BlindHubTest.cs">
-	    <Link>Examples\BlindHubTest.cs</Link>
-	  </Compile>
-	  <Compile Include="..\Xamarin.IoT.Components.Examples.Core\ButtonHubTest.cs">
-	    <Link>Examples\ButtonHubTest.cs</Link>
-	  </Compile>
-	  <Compile Include="..\Xamarin.IoT.Components.Examples.Core\RelayHubTest.cs">
-	    <Link>Examples\RelayHubTest.cs</Link>
-	  </Compile>
-	  <Compile Include="..\Xamarin.IoT.Components.Examples.Core\SensorHubTest.cs">
-	    <Link>Examples\SensorHubTest.cs</Link>
-	  </Compile>
-	</ItemGroup>
-	<ItemGroup>
 	  <PackageReference Include="System.Diagnostics.Tracer" Version="2.0.8" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Examples\" />
-	</ItemGroup>
+	<Import Project="..\Xamarin.IoT.Components.Examples.Core\Xamarin.IoT.Components.Examples.Core.projitems" Label="Shared" Condition="Exists('..\Xamarin.IoT.Components.Examples.Core\Xamarin.IoT.Components.Examples.Core.projitems')" />
 </Project>
