@@ -57,7 +57,12 @@ namespace Xamarin.IoT.Components
 
 			selectedPin.Value = value;
 			Thread.Sleep (DefaultInstructionDelayTime);
-			PinChanged?.Invoke (this, EventArgs.Empty);
+			OnPinChanged (id, value);
+		}
+
+		void OnPinChanged (int port, bool value)
+		{
+			PinChanged?.Invoke(this, new RelayChangedEventArgs (port, value));
 		}
 
 		public override void Dispose ()

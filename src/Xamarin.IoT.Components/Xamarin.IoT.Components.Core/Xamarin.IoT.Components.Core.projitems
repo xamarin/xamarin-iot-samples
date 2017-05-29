@@ -26,6 +26,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Components\IoTRelay.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Components\IoTButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Components\IoTSensor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RelayChangedEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Components\" />

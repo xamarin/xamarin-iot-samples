@@ -4,7 +4,7 @@ namespace Xamarin.IoT.Components
 {
 	public interface IIoTRelay : IIoTComponent
 	{
-		event EventHandler PinChanged;
+		event EventHandler<RelayChangedEventArgs> PinChanged;
 
 		bool ContainsId (int id);
 		void Toggle (int id);
