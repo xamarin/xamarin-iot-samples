@@ -44,11 +44,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Xamarin.Android.Things">
-      <HintPath>..\packages\Xamarin.Android.Things.0.3.0-devpreview\lib\MonoAndroid70\Xamarin.Android.Things.dll</HintPath>
-    </Reference>
     <Reference Include="System.Diagnostics.Tracer">
       <HintPath>..\packages\System.Diagnostics.Tracer.2.0.8\lib\netstandard1.3\System.Diagnostics.Tracer.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Things">
+      <HintPath>..\packages\Xamarin.Android.Things.0.4.0-devpreview\lib\MonoAndroid70\Xamarin.Android.Things.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
