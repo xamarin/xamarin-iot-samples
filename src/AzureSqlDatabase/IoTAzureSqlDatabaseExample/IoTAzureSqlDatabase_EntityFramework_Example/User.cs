@@ -1,8 +1,11 @@
 ﻿using System;
-namespace IoTAzureSqlDatabaseExample
+using System.ComponentModel.DataAnnotations;
+
+namespace IoTAzureSqlDatabase.EntityFrameworkExample
 {
-	class User
+	public class User
 	{
+		[Key]
 		public int Id {
 			get;
 			set;

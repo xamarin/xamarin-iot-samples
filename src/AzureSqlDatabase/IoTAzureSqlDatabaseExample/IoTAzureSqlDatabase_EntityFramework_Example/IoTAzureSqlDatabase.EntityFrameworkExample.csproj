@@ -1,0 +1,11 @@
+﻿<Project Sdk="Xamarin.IoT.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net461</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="EntityFramework" Version="6.1.3" />
+	</ItemGroup>
+</Project>

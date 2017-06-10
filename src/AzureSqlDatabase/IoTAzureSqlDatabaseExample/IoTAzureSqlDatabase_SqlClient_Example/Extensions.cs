@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-namespace IoTAzureSqlDatabaseExample
+namespace IoTAzureSqlDatabase.EntityFrameworkExample
 {
 	static class Extensions
 	{

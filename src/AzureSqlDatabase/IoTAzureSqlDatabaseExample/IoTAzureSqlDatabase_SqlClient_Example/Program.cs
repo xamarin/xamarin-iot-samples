@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-namespace IoTAzureSqlDatabaseExample
+namespace IoTAzureSqlDatabase.EntityFrameworkExample
 {
 	class Program
 	{
 		static void Main ()
 		{
 			var builder = new SqlConnectionStringBuilder {
-				["Server"] = "xamarin-iot.database.windows.net",
+				["Server"] = "yourserverhere.database.windows.net",
 				["User ID"] = "youruserhere",
 				["Password"] = "yourpasswordhere",
-				["Database"] = "xamarinExampleDatabase"
+				["Database"] = "yourdatabasehere"
 			};
 
 			try {
