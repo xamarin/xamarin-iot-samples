@@ -17,6 +17,14 @@ namespace Xamarin.IoT.Components.Examples.Raspbian
 
 			//Push Switch or button connected to Gpio27
 			IIoTButton button = new IoTButton (Connectors.GPIO27);
+			button.ButtonDown += delegate {
+				Console.WriteLine ($"DOWN!!!");
+			};
+
+			button.ButtonUp += delegate {
+				Console.WriteLine ($"UP!!!");
+			};
+
 			button.Clicked += delegate {
 				count++;
 				Console.WriteLine ($"PRESSED THE BUTTON!!! {count}/{maxCount}");
