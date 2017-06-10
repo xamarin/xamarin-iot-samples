@@ -19,7 +19,7 @@ namespace Xamarin.IoT.Components
 			pin.SetDirection (IoTPinDirection.DirectionIn);
 			pin.SetActiveType (IoTActiveType.ActiveLow);
 			HasPresence = pin.Value;
-			tracer.Info ("Initial value: " + HasPresence);
+			tracer.Verbose ("Initial value: " + HasPresence);
 		}
 
 		public override void Update ()
@@ -28,7 +28,7 @@ namespace Xamarin.IoT.Components
 			if (presence == HasPresence)
 				return;
 			HasPresence = presence;
-			tracer.Info ("Detected presence: " + HasPresence);
+			tracer.Verbose ("Detected presence: " + HasPresence);
 			PresenceStatusChanged?.Invoke (presence);
 		}
 

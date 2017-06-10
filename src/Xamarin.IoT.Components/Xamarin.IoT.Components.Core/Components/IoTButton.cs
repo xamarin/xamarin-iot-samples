@@ -20,7 +20,7 @@ namespace Xamarin.IoT.Components
 			pin.SetDirection (IoTPinDirection.DirectionIn);
 			pin.SetActiveType (IoTActiveType.ActiveLow);
 			IsPressed = pin.Value;
-			Console.WriteLine ("Initial value: " + IsPressed);
+			tracer.Verbose ("Initial value: " + IsPressed);
 		}
 
 		public override void Update ()
@@ -30,10 +30,10 @@ namespace Xamarin.IoT.Components
 				return;
 			IsPressed = value;
 			if (IsPressed) {
-				tracer.Info ("Buton Down");
+				tracer.Verbose ("Buton Down");
 				ButtonDown?.Invoke ();
 			} else {
-				tracer.Info ("Buton Up");
+                tracer.Verbose ("Buton Up");
 				ButtonUp?.Invoke ();
 				Clicked?.Invoke ();
 			}

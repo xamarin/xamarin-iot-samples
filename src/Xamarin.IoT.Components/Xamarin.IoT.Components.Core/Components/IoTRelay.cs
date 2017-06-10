@@ -50,7 +50,7 @@ namespace Xamarin.IoT.Components
 			var selectedPin = pins [id];
 			var actualValue = GetPinValue (id);
 
-			tracer.Info ($"PIN: {id} FROM '{actualValue}' TO '{value}'");
+			tracer.Verbose ($"PIN: {id} FROM '{actualValue}' TO '{value}'");
 
 			if (actualValue == value)
 				return;
