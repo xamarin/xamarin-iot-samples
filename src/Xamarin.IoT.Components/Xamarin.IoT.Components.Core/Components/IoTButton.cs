@@ -35,8 +35,8 @@ namespace Xamarin.IoT.Components
 			} else {
 				tracer.Info ("Buton Up");
 				ButtonUp?.Invoke ();
+				Clicked?.Invoke ();
 			}
-			Clicked?.Invoke ();
 		}
 
 		public override void Dispose ()
