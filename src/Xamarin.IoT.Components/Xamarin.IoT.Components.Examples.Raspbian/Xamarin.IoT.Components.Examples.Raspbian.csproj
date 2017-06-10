@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<TargetFramework>net461</TargetFramework>
-		<ReleaseVersion>0.2</ReleaseVersion>
+		<ReleaseVersion>0.35</ReleaseVersion>
 	</PropertyGroup>
 
 	<ItemGroup>

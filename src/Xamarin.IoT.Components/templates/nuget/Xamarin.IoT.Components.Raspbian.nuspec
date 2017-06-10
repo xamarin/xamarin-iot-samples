@@ -2,8 +2,8 @@
 <package >
   <metadata>
     <id>Xamarin.IoT.Components.Raspbian</id>
-    <version>0.3.0</version>
     <title>Xamarin.IoT.Components</title>
+    <version>0.3.5</version>
     <authors>Jose Medrano</authors>
     <owners>Microsoft Corp.</owners>
     <licenseUrl>https://www.microsoft.com/es-es/</licenseUrl>
