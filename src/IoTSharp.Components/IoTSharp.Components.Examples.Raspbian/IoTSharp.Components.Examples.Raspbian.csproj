@@ -1,0 +1,20 @@
+﻿<Project Sdk="Xamarin.IoT.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net461</TargetFramework>
+		<ReleaseVersion>0.35</ReleaseVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Diagnostics.Tracer" Version="2.0.8" />
+	  <PackageReference Include="IoTSharp.Components.Raspbian" Version="0.3.5" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\IoTSharp.Components.Raspbian\IoTSharp.Components.Raspbian.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Hubs\" />
+	</ItemGroup>
+	<Import Project="..\IoTSharp.Components.Examples.Core\Xamarin.IoT.Components.Examples.Core.projitems" Label="Shared" Condition="Exists('..\IoTSharp.Components.Examples.Core\Xamarin.IoT.Components.Examples.Core.projitems')" />
+</Project>
