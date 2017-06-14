@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="16" image="Remote.png">
+                                <rect key="frame" x="0.0" y="0.0" width="373" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qaa-4R-DnV">
+                                <rect key="frame" x="36" y="12" width="303" height="183"/>
+                                <connections>
+                                    <action selector="BtnUp_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5"/>
+                                    <action selector="BtnUp_TouchDownInside:" destination="BYZ-38-t0r" id="26" eventType="touchDown"/>
+                                </connections>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pCW-tm-iwG">
+                                <rect key="frame" x="35" y="203" width="303" height="176"/>
+                                <connections>
+                                    <action selector="BtnStop_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7"/>
+                                    <action selector="BtnDtop_TouchDownInside:" destination="BYZ-38-t0r" id="25" eventType="touchDown"/>
+                                </connections>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7TQ-6W-nRY">
+                                <rect key="frame" x="20" y="387" width="335" height="183"/>
+                                <connections>
+                                    <action selector="BtnDown_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6"/>
+                                    <action selector="BtnDown_TouchDownInside:" destination="BYZ-38-t0r" id="22" eventType="touchDown"/>
+                                </connections>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnDown" destination="7TQ-6W-nRY" id="name-outlet-7TQ-6W-nRY"/>
+                        <outlet property="btnStop" destination="pCW-tm-iwG" id="name-outlet-pCW-tm-iwG"/>
+                        <outlet property="btnUp" destination="qaa-4R-DnV" id="name-outlet-qaa-4R-DnV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.8" y="138.081"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Remote.png" width="341" height="629"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+</document>
