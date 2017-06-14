@@ -1,7 +1,7 @@
 Raspberry Home Automation
 =========================
 
-This a personal project and is created to test the Raspberry IO libraries and stuff.
+This project allows control a Blind component using a remote application in a Xamarin IOS device!
 
 Requirements:
 - Components
@@ -16,10 +16,8 @@ Requirements:
   - Microsoft.AspNet.WebApi
   - Microsoft.Owin
   - Microsoft.Script.ShellScript (https://github.com/netonjm/Microsoft.Script.ShellScript)
-  - Raspberry.IO.Extensions (https://github.com/netonjm/raspberry-sharp-extensions)
-  
-To improve the development experience, deploying and debugging server side, you can install the XamarinStudio.Raspberry addin from here:
-https://github.com/netonjm/XamarinStudio.Raspberry
+  - IoTSharp.Components (https://github.com/netonjm/iotsharp-components)
 
 This is a simple example video with the final result:
+
 https://www.screencast.com/t/er5vfWgSHk
