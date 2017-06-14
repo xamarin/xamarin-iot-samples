@@ -17,7 +17,7 @@ namespace IoTSharp.Components.Examples
 
 		public override void Update ()
 		{
-			IIoTRelay relayComponent = GetComponent<IIoTRelay> ();
+			var relayComponent = GetComponent<IIoTRelay> ();
 			relayComponent.Toggle (0);
 			Thread.Sleep (DelayTime);
 			relayComponent.Toggle (1);

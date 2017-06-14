@@ -9,7 +9,7 @@
 
 		public override void Init ()
 		{
-			IIoTBlind blind = GetComponent<IIoTBlind> ();
+			var blind = GetComponent<IIoTBlind> ();
 			blind.Down ();
 			blind.Up ();
 			blind.Stop ();
