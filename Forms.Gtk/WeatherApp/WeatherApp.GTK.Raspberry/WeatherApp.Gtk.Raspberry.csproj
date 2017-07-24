@@ -1,0 +1,16 @@
+﻿<Project Sdk="Xamarin.IoT.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net461</TargetFramework>
+		<RootNamespace>WeatherApp.GTK.Raspberry</RootNamespace>
+		<AssemblyName>WeatherApp.GTK.Raspberry</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Xamarin.Forms" Version="3.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\WeatherApp\WeatherApp.csproj" />
+	</ItemGroup>
+</Project>
