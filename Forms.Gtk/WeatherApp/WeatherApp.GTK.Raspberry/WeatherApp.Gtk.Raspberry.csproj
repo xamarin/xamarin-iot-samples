@@ -13,4 +13,14 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\WeatherApp\WeatherApp.csproj" />
 	</ItemGroup>
+
+    <Target Name="CleanGtk" AfterTargets="Build">
+        <Delete Files="$(OutputPath)atk-sharp.dll" />
+        <Delete Files="$(OutputPath)pango-sharp.dll" />
+        <Delete Files="$(OutputPath)gdk-sharp.dll" />
+        <Delete Files="$(OutputPath)glade-sharp.dll" /> 
+        <Delete Files="$(OutputPath)glib-sharp.dll" /> 
+        <Delete Files="$(OutputPath)gtk-sharp.dll" /> 
+        <Delete Files="$(OutputPath)gtk-dotnet.dll" /> 
+    </Target>
 </Project>
